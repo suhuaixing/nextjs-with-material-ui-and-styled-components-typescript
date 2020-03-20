@@ -9,17 +9,14 @@ const NextComposed = React.forwardRef(function NextComposed(props, ref) {
   const { as, href, prefetch, ...other } = props;
 
   return (
+      
     <NextLink href={href} prefetch={prefetch} as={as}>
+
       <a ref={ref} {...other} />
     </NextLink>
   );
 });
 
-NextComposed.propTypes = {
-  as: PropTypes.string,
-  href: PropTypes.string,
-  prefetch: PropTypes.bool,
-};
 
 // A styled version of the Next.js Link component:
 // https://nextjs.org/docs/#with-link

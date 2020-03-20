@@ -2,8 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import MuiLink from '@material-ui/core/Link';
-import Link from '../src/Link';
+
 import styled from 'styled-components'
 import { Button } from '@material-ui/core';
 
@@ -33,12 +32,12 @@ export default function Index() {
         <Typography variant="h4" component="h1" gutterBottom>
           Next.js v4-beta example
         </Typography>
-        <Link href="/about" color="secondary">
+        {/* <Link href="/about" color="secondary">
           Go to the about page
         </Link>
         <Link href="/table" color="secondary">
           Go to the about page
-        </Link>
+        </Link> */}
       </Box>
     </Container>
   );
