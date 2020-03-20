@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@material-ui/core": "latest",
-    "next": "latest",
-    "prop-types": "latest",
+    "next": "react",
     "react": "latest",
     "react-dom": "latest",
     "styled-components": "latest"
@@ -12,7 +11,7 @@
   "devDependencies": {
     "babel-plugin-styled-components": "latest"
   },
-  "scripts": {
+    "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"

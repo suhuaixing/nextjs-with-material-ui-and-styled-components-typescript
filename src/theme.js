@@ -17,6 +17,18 @@ const theme = createMuiTheme({
       default: '#fff',
     },
   },
+  props: {
+    // Name of the component ⚛️
+    MuiButtonBase: {
+      // The properties to apply
+      disableRipple: true, // No more ripple, on the whole application 💣!
+    },
+  },
+  typography: {
+    button: {
+      textTransform: 'none'
+    }
+  }
 });
 
 export default theme;
